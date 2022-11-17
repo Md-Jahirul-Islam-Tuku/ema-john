@@ -1,0 +1,32 @@
+.header{
+   position: sticky;
+   top: 0;
+   z-index: 10;
+   height: 80px;
+   background-color: #1C2B35;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 10%;
+}
+.header img {
+   margin-left: 0;
+}
+.header a{
+   text-decoration: none;
+   
+   font-size: 18px;
+   font-weight: bold;
+}
+.header a:hover{
+   color: orange;
+   transition: 0.4ms;
+}
+.active {
+   color: orange;
+   margin-left: 20px;
+}
+.inActive {
+   color: #FFFFFF;
+   margin-left: 20px;
+}

@@ -1,0 +1,10 @@
+.reviewItemsContainer {
+   display: grid;
+   grid-template-columns: 4fr 1fr;
+}
+.reviewItems {
+   margin: 5% auto;
+}
+.reviewCartContainer {
+   margin-top: 15%;
+}
